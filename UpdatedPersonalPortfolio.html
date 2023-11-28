@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+    <head>
+         <title>About Binus's William Ken Hartono</title>
+         <div class="wrapper">
+            <div class="box red"></div>
+            <div class="box green"></div>
+            <div class="box blue"></div>
+        </div>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+        * {
+            box-sizing: border-box;
+            }
+            /* Establishes font and format alteration */
+            .bold {
+                font-weight: 700;
+            }
+            .center {
+                text-align: center;
+            }
+            td image {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            .logo{
+                width:100px;
+                height:100px
+            }
+            table, th, td {
+                border: 1px solid black; margin-left:auto; margin-right:auto;
+                width: 100px;
+                height: 50px;
+            }
+            body {
+                background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.KnYXh3FcpxeIqtGiirBXrAHaEo%26pid%3DApi&f=1&ipt=6b2f6291cb84ffd6f44a45e579169b66079fd2b5d6e319d4c5ba0625751ccee0&ipo=images');
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-size: cover;
+            }
+            /* Wbsite layout */
+            .header {
+                background-color: #F1F1F1;
+                text-align: center;
+                padding: 20px;
+            }
+            .twocolumn {
+                float: left;
+                width: 50%;
+                padding: 15px;
+            }
+            .threecolumn {
+                float: left;
+                width: 33.333%;
+                padding: 10px;
+            }
+            /* Clear floats after the columns */
+            .row::after {
+                content: "";
+                display: table;
+                clear: both;
+            }
+             /* Assumes this behaviour if screen is larger than 600px (Phone sized) */
+            @media screen and (max-width:600px) {
+                .twocolumn {
+                width: 100%;
+                }
+                .threecolumn {
+                width: 100%;
+                }
+            }
+            /* Need to impliment a feature that can impliment
+            CSS Website layout
+            Viewport
+            Gridview
+            Media Queries */
+        </style>
+    </head>
+    <body>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--This place is for the-->
+        <fieldset>
+            <!-- Full Name (Heading 1) Header -->
+            <div class="header"><h1 class="center">William Ken Hartono - Student at Binus University</h1></div>
+            <div class="row">
+                <!-- Your profile Picture (Supposed to be 1st Column)-->
+                <div class="twocolumn">
+                    <img src='https://pbs.twimg.com/profile_images/1628707993528463360/lr-2dDa-_400x400.jpg' alt="My Profile Picture" style="width:250px;height:250px">
+                </div>
+                <div class="twocolumn">
+                    <!-- This is supposed to be where you link Github, Instagram and LinkdIn -->
+                    <table style="width:70%";>
+                        <!-- Above code is meant to make the table transparent so its pretty much invisible but Im not sure how to do it yet -->
+                        <tr>
+                            <th colspan="3">Social Media I Use</th>
+                        </tr>
+                        <tr>
+                            <th>
+                                <img class="logo"; src='https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fpngimg.com%2Fuploads%2Fgithub%2Fgithub_PNG42.png&f=1&nofb=1&ipt=d75c5591843a9d72a0682fb31c7666f900941891b5d7aa7d52364def19428990&ipo=images' 
+                                alt="Github Logo">
+                                <a href="https://github.com/WilliamKenHartono">Github</a>
+                            </th>
+                            
+                            <th>
+                                <img class="logo"; src='https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.stickpng.com%2Fassets%2Fimages%2F580b57fcd9996e24bc43c53e.png&f=1&nofb=1&ipt=640e313ede58a9b444dfd66d9894fe446becb7045d2e7a36d28ce1044eb73962&ipo=images' 
+                                alt="Twitter Logo">
+                                <a href=https://twitter.com/TheLivingArt2>Twitter</a>
+                            </th>
+                            
+                            <th>
+                                <img class="logo"; src='https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.freebiesupply.com%2Flogos%2Flarge%2F2x%2Flinkedin-icon-logo-png-transparent.png&f=1&nofb=1&ipt=8a98ac97756a9cca8e8b74a12baa23e5f2cb408df414cabfcd4a0cb5d4ff0494&ipo=images' 
+                                alt="LinkedIn Logo">
+                                <a href="https://www.youtube.com/watch?v=mx86-rTclzA">LinkedIn</a>
+                            </th>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+                
+        </fieldset>
+            <!-- Should be a column or something -->
+            <fieldset>
+                <!-- Education (Ordered list with link to your school/university homepage) -->
+                <h2 class="center">Projects</h2>
+                <!-- 1st row of 3 projects and project descriptions -->
+                <div class="row">
+                    <div class="threecolumn">
+                        <table style="width:100%">
+                        <tr><th>Project Title</th></tr>
+                        <tr><td>Placeholder Description</td></tr>
+                        </table>
+                    </div>
+                    <div class="threecolumn">
+                        <table style="width:100%">
+                        <tr><th>Project Title</th></tr>
+                        <tr><td>Placeholder Description</td></tr>
+                        </table>
+                    </div>
+                    <div class="threecolumn">
+                        <table style="width:100%">
+                        <tr><th>Project Title</th></tr>
+                        <tr><td>Placeholder Description</td></tr>
+                        </table>
+                    </div>
+                </div>
+                <!-- 2nd row of 3 projects and project descriptions -->
+                <div class="row">
+                    <div class="threecolumn">
+                        <table style="width:100%">
+                        <tr><th>Project Title</th></tr>
+                        <tr><td>Placeholder Description</td></tr>
+                        </table>
+                    </div>
+                    <div class="threecolumn">
+                        <table style="width:100%">
+                        <tr><th>Project Title</th></tr>
+                        <tr><td>Placeholder Description</td></tr>
+                        </table>
+                    </div>
+                    <div class="threecolumn">
+                        <table style="width:100%">
+                        <tr><th>Project Title</th></tr>
+                        <tr><td>Placeholder Description</td></tr>
+                        </table>
+                    </div>
+                </div>
+                <!-- 3rd row of 3 projects and project descriptions -->
+                <div class="row">
+                    <div class="threecolumn">
+                        <table style="width:100%">
+                        <tr><th>Project Title</th></tr>
+                        <tr><td>Placeholder Description</td></tr>
+                        </table>
+                    </div>
+                    <div class="threecolumn">
+                        <table style="width:100%">
+                        <tr><th>Project Title</th></tr>
+                        <tr><td>Placeholder Description</td></tr>
+                        </table>
+                    </div>
+                    <div class="threecolumn">
+                        <table style="width:100%">
+                        <tr><th>Project Title</th></tr>
+                        <tr><td>Placeholder Description</td></tr>
+                        </table>
+                    </div>
+                </div>
+            </fieldset>
+            <!-- Another category -->
+            <fieldset>
+                <h1 class="center">Work Experience</h1>
+                <h2 class="center">To be added</h2>
+            </fieldset>
+        </body> 
+    </html>
